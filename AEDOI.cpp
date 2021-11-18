@@ -21,7 +21,6 @@ int main()
             count1 = count1 + i + a / i;
         }
     }
-
     for (int i = 2; i <= m; i++)
     {
         if (b % i == 0)
@@ -31,6 +30,5 @@ int main()
     }
     if (count1 == b || count2 == a)
         cout << "YES";
-    else
-        cout << "NO";
+    else cout << "NO";
 }
